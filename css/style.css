@@ -1,0 +1,74 @@
+@import 'web-style_zcl.css';
+@import 'web-style_yhq.css';
+
+/*---------------------------------  public  --------------------------------*/
+
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    min-width: 1200px;
+    background: #fff;
+    color: #666666;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    min-width: 1200px;
+}
+
+/* 图片自适应 */
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto \9
+;
+    /* ie8 */
+    -ms-interpolation-mode: bicubic;
+    /*为了照顾ie图片缩放失真*/
+    border: none;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1200px;
+}
+
+.warp {
+    width: 100%;
+    min-width: 1200px;
+}
+
+/*header*/
+.header {
+
+}
+
+/*footer*/
+.footer {
+
+}
+
+
+/*page*/
+.page {
+
+}
+
+/*bread-crumbs*/
+.bread-crumbs {
+
+}
+
+
+/*other-main*/
+.other-main {
+
+}
+
+/*member-main*/
+.member-main {
+
+}
