@@ -266,7 +266,7 @@ img {
 }
 
 .other-main-bg {
-  border-color: #f8f8f8;
+  background-color: #f8f8f8;
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -274,5 +274,98 @@ img {
 
 /*member-main*/
 .member-main {
+  .member-left {
+    width: 260px;
+  }
+  .member-content {
+    width: 860px;
+    padding: 15px 30px 35px;
+    min-height: 500px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 8px 0px
+    rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    .content-title {
+      border-bottom: 1px solid #f0f0f0;
+      height: 52px;
+      line-height: 52px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+  }
 
+  .member-pres-info {
+    background-color: #ffffff;
+    box-shadow: 2px 1px 8px 0px
+    rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    .box-header {
+      margin-bottom: 25px;
+      img {
+        display: block;
+        width: 130px;
+        height: 130px;
+        border: 1px solid #f1f1f1;
+        border-radius: 100%;
+        margin: 0 auto;
+      }
+    }
+    .box-name {
+      font-size: 18px;
+      line-height: 24px;
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    .box-tel {
+      margin-bottom:10px;
+      span {
+        background: url("../images/img-08.png") no-repeat left center;
+        display: inline-block;
+        padding-left: 16px;
+        font-size: 12px;
+        line-height: 30px;
+        color: #999999;
+
+      }
+    }
+    .box-other {
+      a {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 30px;
+        color: #999999;
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+  .member-menu {
+    box-shadow: 2px 1px 8px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 40px 0;
+    background-color: #fff;
+    overflow: hidden;
+    a {
+      display: block;
+      border-left: 4px solid transparent;
+      padding-left: 80px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #666666;
+      margin-bottom: 35px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:hover,&.current {
+        border-left-color: #009a44;
+        color: #009a44;
+        background: url("../images/img-10.png") no-repeat right 20px center;
+      }
+    }
+  }
 }
