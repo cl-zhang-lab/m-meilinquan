@@ -1,0 +1,160 @@
+@import 'web-style_zcl.css';
+@import 'web-style_yhq.css';
+
+/*---------------------------------  public  --------------------------------*/
+
+body {
+  font-family: "Microsoft YaHei", sans-serif;
+  min-width: 1200px;
+  background: #fff;
+  color: #666666;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  min-width: 1200px;
+}
+
+/* 图片自适应 */
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto \9;
+  /* ie8 */
+  -ms-interpolation-mode: bicubic;
+  /*为了照顾ie图片缩放失真*/
+  border: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1200px;
+}
+
+.warp {
+  width: 100%;
+  min-width: 1200px;
+}
+
+/*header*/
+.header {
+  height: 98px;
+  border-bottom: 2px solid #10a050;
+  background-color: #fff;
+
+  .header-logo {
+    padding-top: 10px;
+    float: left;
+  }
+  .header-nav {
+    margin-left: 70px;
+    float: left;
+    margin-top: 30px;
+    li {
+      float: left;
+      margin-right: 55px;
+      &:last-child {
+        margin-right: 0;
+      }
+      a {
+        display: block;
+        font-size: 16px;
+        line-height: 44px;
+        color: #666666;
+        font-weight: bold;
+      }
+      &:hover,&.active {
+        a {
+          color: #009a44;
+        }
+      }
+    }
+  }
+  .header-other {
+    float: right;
+    font-weight: bold;
+    padding-top: 37px;
+    .other-tel {
+      background: url("../images/tel.png") no-repeat left center;
+      padding-left: 25px;
+      font-size: 16px;
+      line-height: 30px;
+      color: #009a44;
+      float: left;
+    }
+    .other-group {
+      margin-left: 10px;
+      float: left;
+
+      a {
+        display: block;
+        width: 54px;
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        background-color: #ffffff;
+        border-radius: 4px;
+        border: solid 1px #dcdcdc;
+        float: left;
+        font-size: 12px;
+        color: #666666;
+      }
+    }
+    .other-a {
+      width: 100px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      background-color: #009a44;
+      border-radius: 3px;
+      float: left;
+      font-size: 14px;
+      color: #ffffff;
+      margin-left: 10px;
+    }
+  }
+}
+
+/*footer*/
+.footer {
+  .footer-info {
+
+  }
+  .footer-copy {
+    background-color: #666666;
+    line-height: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #fff;
+    font-size: 14px;
+    a {
+      color: #fff;
+    }
+  }
+}
+
+
+/*page*/
+.page {
+
+}
+
+/*bread-crumbs*/
+.bread-crumbs {
+
+}
+
+
+/*other-main*/
+.other-main {
+
+}
+
+/*member-main*/
+.member-main {
+
+}

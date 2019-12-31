@@ -2,8 +2,22 @@
 /* CSS Document */
 @import 'normalize.css';
 
-/*common*/
+ul,ol{
+    padding-left:0;
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
 *:focus {outline: none;}
+
+/*common*/
+
 
 /* display */
 .dn { display: none; }
