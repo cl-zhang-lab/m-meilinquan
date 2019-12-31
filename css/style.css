@@ -97,6 +97,12 @@ img {
   font-size: 12px;
   color: #666666;
 }
+.header .header-other .other-group a:hover,
+.header .header-other .other-group a.current {
+  border-color: #009a44;
+  color: #fff;
+  background-color: #009a44;
+}
 .header .header-other .other-a {
   width: 100px;
   height: 30px;
@@ -109,7 +115,85 @@ img {
   color: #ffffff;
   margin-left: 10px;
 }
+.header .header-other .other-a:hover,
+.header .header-other .other-a.current {
+  border-color: #009a44;
+  color: #fff;
+  background-color: #009a44;
+}
 /*footer*/
+.footer .footer-info {
+  border-top: 1px solid #edeef0;
+  background-color: #f8f8f8;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.footer .footer-info .info-logo {
+  padding-top: 20px;
+}
+.footer .footer-info .info-logo img {
+  display: block;
+}
+.footer .footer-info .info-group {
+  background: url("../images/img-01.png") repeat-y top left;
+  min-height: 80px;
+  margin-left: 30px;
+  padding-left: 30px;
+  margin-top: 15px;
+}
+.footer .footer-info .info-group .link-s {
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+  margin-bottom: 20px;
+}
+.footer .footer-info .info-group .link-s span {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.footer .footer-info .info-group .link-s a {
+  color: #999999;
+}
+.footer .footer-info .info-group .link-s a:hover {
+  color: #009a44;
+}
+.footer .footer-info .info-group .box-s {
+  font-size: 12px;
+  line-height: 24px;
+  color: #999999;
+}
+.footer .footer-info .info-group .box-s .icon-s {
+  margin-right: 10px;
+}
+.footer .footer-info .info-group .box-s .icon-s img {
+  vertical-align: middle;
+  margin-top: -3px;
+}
+.footer .footer-info .info-erwm {
+  background: url("../images/img-01.png") no-repeat left center;
+  padding-left: 30px;
+}
+.footer .footer-info .info-erwm > div {
+  display: inline-block;
+}
+.footer .footer-info .info-erwm img {
+  display: block;
+  width: 108px;
+  height: 108px;
+}
+.footer .footer-info .info-erwm .erwm-title {
+  font-size: 16px;
+  line-height: 18px;
+  color: #999999;
+  margin-left: 20px;
+}
+.footer .footer-info .info-erwm .erwm-title > div {
+  float: left;
+  width: 20px;
+  text-align: center;
+  vertical-align: top;
+}
 .footer .footer-copy {
   background-color: #666666;
   line-height: 24px;
@@ -121,8 +205,52 @@ img {
 .footer .footer-copy a {
   color: #fff;
 }
-/*page*/
 /*bread-crumbs*/
+.bread-crumbs .b-l {
+  background: url("../images/img-06.png") no-repeat 0 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 26px;
+  padding-left: 26px;
+  font-size: 14px;
+  color: #666666;
+}
+.bread-crumbs .b-l a {
+  color: #666666;
+}
+/*page*/
+.page {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.page a {
+  display: inline-block;
+  margin: 0 3px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 12px;
+  background-color: #f0f0f0;
+  font-size: 14px;
+  color: #666666;
+}
+.page a:hover,
+.page a.current {
+  background-color: #009a44;
+  color: #fff;
+}
 /*other-main*/
+.other-main {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.other-main-btm {
+  padding-bottom: 50px;
+}
+.other-main-bg {
+  border-color: #f8f8f8;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
 /*member-main*/
 /*# sourceMappingURL=style.css.map */
