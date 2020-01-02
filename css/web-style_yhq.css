@@ -280,13 +280,51 @@
 }
 
 /* 弹窗1 */
-.qtcbg{
+.qtcbg1{
     width: 100%;
     height: 100%;
-    background-color: rgba(red, green, blue, .5);
+    background-color: rgba(0, 0, 0, .5);
     position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    display: none;
 }
 
-.tcbox1{}
+.tcbox1{
+    width: 588px;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    margin-left: -294px;
+    z-index: 99;
+    display: none;
+}
 
-.tcbox1_nr{}
+.tcbox1_nr{
+    width: 336px;
+    text-align: center;
+    padding: 62px 126px;
+}
+
+.tcbox1_nr1{
+    font-size: 20px;
+    color: #333;
+    width: 336px;
+}
+.tcbox1_nr2{
+    width: 336px;
+    margin-top: 68px;
+}
+.tcbox1_nr2 a{
+    font-size: 16px;
+    color: #fefefe;
+    width: 100%;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    background-color: #009a44;
+    border-radius: 5px;
+    display: block;
+}

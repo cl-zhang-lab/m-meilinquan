@@ -18,5 +18,18 @@ $(function () {
         $(this).parents().siblings('.qtab_nr').children('.qtab_nr1').eq($(this).index()).show().siblings().hide();
     });
 
+    // 弹窗1
+    $('.qtcbg1').height($(window).height());
+    $('.tcbox1').css('margin-top',($(window).height()-$('.tcbox1').height())/2);
+
+    $('.qtanchuang1').click(function(){
+        $('.qtcbg1').fadeIn();
+        $('.tcbox1').fadeIn();
+    })
+    $('.qtcbg1,.qgb1').click(function(){
+        $('.qtcbg1').fadeOut();
+        $('.tcbox1').fadeOut();
+    })
+
 })
 
