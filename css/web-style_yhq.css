@@ -1,5 +1,292 @@
-.demo_yhq {
-    height: 300px;
-    background-color: bisque;
+/* 登录、注册 */
+
+.qother-main1{
+    min-height: 814px;
 }
 
+.qSignIn {
+    width: 100%;
+    height: 980px;
+    position: relative;
+}
+
+.qSignIn_nr {
+    width: 360px;
+    min-height: 301px;
+    padding: 35px 22px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    top: 206px;
+    left: 50%;
+    margin-left: -202px;
+}
+
+.qSignIn_nr .qtab {
+    font-size: 0px;
+    width: 100%;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.qSignIn_nr .qtab1 {
+    font-size: 18px;
+    color: #999;
+    margin-right: 32px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.qSignIn_nr .qtab1 a {
+    color: #999;
+    height: 31px;
+    line-height: 100%;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    display: block;
+    overflow: hidden;
+}
+
+.qSignIn_nr .qtab1:hover a {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+.qSignIn_nr .qtab1.on a {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+.qSignIn_nr .qtab_nr {
+    width: 336px;
+    margin-top: 53px;
+}
+
+.qSignIn_nr .qtab_nr1 {
+    width: 100%;
+    display: none;
+}
+
+.qSignIn_nr .qtab_nr1 ul {
+    font-size: 14px;
+    width: 100%;
+}
+
+.qSignIn_nr .qtab_nr1 ul li {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li:first-child {
+    margin-top: 0px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .nr1 {
+    width: 334px;
+    height: 38px;
+    background-color: #f1f1f1;
+    border: 1px solid #d8d7d7;
+    border-radius: 3px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .nr2 {
+    width: 100%;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .nr3 {
+    font-size: 14px;
+    color: #666;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .nr3 a {
+    color: #666;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .nr3 a:hover {
+    color: #009a44;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .nr4 {
+    font-size: 12px;
+    color: #333;
+    width: 100%;
+    line-height: 14px;
+    margin-top: 48px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .nr4 a {
+    color: #009a44;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .nr5 {
+    line-height: 14px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .nr6 {
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .wbk1 {
+    color: #333;
+    width: 56px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background: none;
+    border: 0px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .wbk2 {
+    color: #333;
+    width: 251px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 13px;
+    background: none;
+    border: 0px;
+    border-left: 1px solid #d8d7d7;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .wbk3 {
+    color: #333;
+    width: 157px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #d8d7d7;
+    border-radius: 3px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .wbk4 {
+    color: #333;
+    width: 294px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #d8d7d7;
+    border-radius: 3px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .btn1 {
+    color: #fff;
+    width: 120px;
+    height: 33px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 4px;
+    padding: 0 20px;
+    background-color: #009a44;
+    border: 1px solid #d8d7d7;
+    border-radius: 5px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .btn2 {
+    font-size: 16px;
+    color: #fff;
+    width: 336px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #009a44;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .checkbox1 {
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .numberyz {
+    width: 128px;
+    height: 38px;
+    background-color: #f7f7f7;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qSignIn_nr .qtab_nr1 ul li .numberyz img {
+    width: 128px;
+    height: 38px;
+}
+
+.qSignIn_nr ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #999;
+}
+
+.qSignIn_nr :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+
+.qSignIn_nr ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999;
+}
+
+.qSignIn_nr :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #999;
+}
+
+.qRegister {
+    width: 336px;
+    min-height: auto;
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: static;
+    top: 0px;
+    left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qRegister h1 {
+    font-size: 24px;
+    color: #333;
+    line-height: 100%;
+    margin: 0;
+    padding-top: 84px;
+}
+
+.qRegister .qtab_nr {
+    margin-top: 43px;
+}
+
+.qRetrieve {
+    width: 1200px;
+}
+
+.qRetrieve1 {
+    font-size: 36px;
+    color: #333;
+    width: 1200px;
+    line-height: 100%;
+    padding: 148px 0 108px;
+}
+
+.qRetrieve2 {
+    width: 1200px;
+}
+
+/* 弹窗1 */
+.qtcbg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(red, green, blue, .5);
+    position: fixed;
+}
+
+.tcbox1{}
+
+.tcbox1_nr{}
