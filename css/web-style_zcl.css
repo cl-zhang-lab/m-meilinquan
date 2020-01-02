@@ -34,4 +34,40 @@
 .member-mod-01 .box-s .box-date {
   color: #919191;
 }
+.form-cont {
+  font-size: 14px;
+  position: relative;
+}
+.form-cont .form-box {
+  margin-bottom: 15px;
+}
+.form-cont .form-left {
+  width: 85px;
+  line-height: 38px;
+  color: #999999;
+}
+.form-cont .from-head {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+}
+.form-cont .from-head img {
+  width: 130px;
+  height: 130px;
+  background-color: #009a44;
+  border: solid 1px #f0f0f0;
+  border-radius: 50%;
+}
+.form-cont .form-inp {
+  padding: 0 15px;
+  height: 38px;
+  line-height: 36px;
+  border: 1px solid #dddddd;
+}
+.form-cont .form-inp.inp-01 {
+  width: 240px;
+  font-size: 13px;
+  color: #666;
+}
 /*# sourceMappingURL=web-style_zcl.css.map */
