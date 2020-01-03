@@ -1,6 +1,20 @@
-/* 登录、注册 */
+/*图片放大公用类*/
+.qpicfd img{
+    -webkit-transition:0.5s ease;
+    -moz-transition:0.5s ease;
+    -o-transition:0.5s ease;
+    -ms-transition:0.5s ease;
+}
+.qpicfd:hover img{
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+}
 
-.qother-main1{
+/* 登录、注册 */
+.qother-main1 {
     min-height: 814px;
 }
 
@@ -280,7 +294,7 @@
 }
 
 /* 弹窗1 */
-.qtcbg1{
+.qtcbg1 {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
@@ -291,7 +305,7 @@
     display: none;
 }
 
-.tcbox1{
+.tcbox1 {
     width: 588px;
     background-color: #fff;
     position: fixed;
@@ -302,22 +316,24 @@
     display: none;
 }
 
-.tcbox1_nr{
+.tcbox1_nr {
     width: 336px;
     text-align: center;
     padding: 62px 126px;
 }
 
-.tcbox1_nr1{
+.tcbox1_nr1 {
     font-size: 20px;
     color: #333;
     width: 336px;
 }
-.tcbox1_nr2{
+
+.tcbox1_nr2 {
     width: 336px;
     margin-top: 68px;
 }
-.tcbox1_nr2 a{
+
+.tcbox1_nr2 a {
     font-size: 16px;
     color: #fefefe;
     width: 100%;
@@ -327,4 +343,798 @@
     background-color: #009a44;
     border-radius: 5px;
     display: block;
+}
+
+/* 弹窗2 */
+.qtcbg2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    display: none;
+}
+
+.tcbox2 {
+    width: 450px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    margin-left: -225px;
+    z-index: 99;
+    display: none;
+}
+
+.tcbox2_nr {
+    width: 330px;
+    text-align: center;
+    padding: 72px 60px 52px;
+}
+
+.tcbox2_nr1 {
+    font-size: 22px;
+    color: #333;
+    width: 330px;
+    line-height: 36px;
+}
+
+.tcbox2_nr2 {
+    width: 330px;
+    margin-top: 42px;
+}
+
+.tcbox2_nr2 a {
+    font-size: 14px;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #009a44;
+    display: inline-block;
+}
+
+.tcbox2 .qgb2 {
+    width: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.tcbox2 .qgb2:hover {
+    transform: rotate(90deg);
+}
+
+/* 搜索 */
+.qsearch{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.qsearch_nr{
+    font-size: 14px;
+    width: 719px;
+    padding: 48px 0;
+}
+.qsearch_nr .wbk1{
+    color: #666;
+    width: 558px;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 20px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-right: 0px;
+}
+.qsearch_nr .btn1{
+    color: #fff;
+    width: 120px;
+    height: 45px;
+    line-height: 43px;
+    text-align: center;
+    background-color: #009a44;
+    border: 0px;
+}
+
+/* 前台 */
+.qReception {
+    width: 1200px;
+}
+
+.qReception1 {
+    font-size: 24px;
+    color: #333;
+    width: 1200px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.qReception2 {
+    width: 508px;
+}
+
+.qReception2 ul {
+    font-size: 14px;
+    width: 508px;
+    margin-top: 40px;
+}
+
+.qReception2 ul li {
+    width: 508px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.qReception2 ul li p {
+    color: #999;
+    width: 78px;
+}
+
+.qReception2 ul li span {
+    color: #666;
+    width: 430px;
+}
+
+.qReception2 ul li span .wbk1 {
+    color: #999;
+    width: 260px;
+    height: 40px;
+    line-height: 38px;
+    padding: 0 20px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+}
+
+.qReception2 ul li span .wbk2 {
+    color: #999;
+    width: 218px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+}
+
+.qReception2 ul li span .wbk3 {
+    color: #999;
+    width: 388px;
+    height: 110px;
+    line-height: 20px;
+    padding: 9px 20px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    resize: none;
+}
+
+.qReception2 ul li span .btn1 {
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #009a44;
+    border: 0px;
+}
+
+.qReception2 ul li span .yydz {
+    margin-left: 30px;
+    position: relative;
+}
+
+.qReception2 ul li span .yydz1 {
+    font-size: 12px;
+    color: #999;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.qReception2 ul li span .yydz1 img {
+    margin-left: 10px;
+}
+
+.qReception2 ul li span .yydz2 {
+    width: 258px;
+    padding: 10px 0;
+    border: 1px solid #dcdcdc;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    display: none;
+}
+
+.qReception2 ul li span .yydz2_nr {
+    font-size: 12px;
+    width: 232px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 7px;
+    padding: 0 13px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.qReception2 ul li span .yydz2_nr1 {
+    color: #333;
+    width: 50px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.qReception2 ul li span .yydz2_nr2 {
+    color: #999;
+    width: 182px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.qReception2 ul li span .yydz2_nr:first-child {
+    margin-top: 0px;
+}
+
+.qReception2 ul li span .yydz2_nr:hover {
+    background-color: #f0f0f0;
+}
+
+.qReception2 ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #999;
+}
+
+.qReception2 :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+
+.qReception2 ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999;
+}
+
+.qReception2 :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #999;
+}
+
+.qReception3 {
+    width: 1200px;
+    margin-top: 40px;
+}
+
+.qReception3_l {
+    width: 710px;
+}
+
+.qswiper1 {
+    width: 710px;
+}
+
+.qswiper1 .swiper-slide {
+    width: 710px;
+    height: 430px;
+    position: relative;
+}
+
+.qswiper1 .swiper-slide .pic {
+    width: 710px;
+    height: 430px;
+    overflow: hidden;
+}
+
+.qswiper1 .swiper-slide .pic img {
+    width: 710px;
+    height: 430px;
+}
+
+.qswiper1 .swiper-slide .title {
+    font-size: 14px;
+    color: #fff;
+    width: 560px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 120px 0 30px;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.qswiper1 .swiper-slide:hover .title {
+    color: #009a44;
+}
+
+.qswiper1 .swiper-pagination{
+    font-size: 0px;
+    width: auto;
+    text-align: right;
+    bottom: 17px;
+    left: auto;
+    right: 25px;
+}
+
+.qswiper1 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 5px;
+}
+
+.qswiper1 .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #fff;
+    opacity: .5;
+}
+
+.qswiper1 .swiper-pagination-bullet-active{
+    opacity: 1;
+}
+
+.qReception3_r {
+    width: 450px;
+}
+
+.qReception3_r1 {
+    width: 450px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.qReception3_r1 .nr1 {
+    font-size: 24px;
+    color: #333;
+    line-height: 100%;
+}
+
+.qReception3_r2 {
+    width: 450px;
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.qReception3_r2 .pic {
+    width: 140px;
+    height: 85px;
+    overflow: hidden;
+}
+
+.qReception3_r2 .pic img {
+    width: 140px;
+    height: 85px;
+}
+
+.qReception3_r2 .text {
+    width: 278px;
+    margin-right: 12px;
+}
+
+.qReception3_r2 .text .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    width: 100%;
+    line-height: 100%;
+    margin: 7px 0 15px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.qReception3_r2 .text .content {
+    font-size: 13px;
+    color: #666;
+    width: 100%;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.qReception3_r2 a:hover .text .title {
+    color: #009a44;
+}
+
+.qReception3_r3 {
+    width: 450px;
+    margin-top: 14px;
+}
+
+.qReception3_r3 ul {
+    width: 450px;
+    height: 244px;
+    line-height: 43px;
+    overflow: hidden;
+}
+
+.qReception3_r3 ul li {
+    width: 450px;
+}
+
+.qReception3_r3 ul li a {
+    font-size: 13px;
+    color: #666;
+    width: 430px;
+    padding-left: 20px;
+    background: url(../images/qpic8.png) no-repeat left center;
+    display: block;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.qReception3_r3 ul li a:hover {
+    font-weight: bold;
+    color: #009a44;
+}
+
+.qReception4 {
+    width: 1200px;
+    margin-top: 60px;
+}
+
+.qReception4_1 {
+    width: 1200px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.qReception4_1 .nr1 {
+    font-size: 24px;
+    color: #333;
+    line-height: 100%;
+}
+
+.qReception4_1 .nr2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    line-height: 100%;
+    margin-top: 8px;
+}
+
+.qReception4_1 .nr2 a {
+    color: #666;
+    margin-left: 39px;
+}
+
+.qReception4_1 .nr2 a:first-child {
+    margin-left: 0px;
+}
+
+.qReception4_1 .nr2 a:hover , .qReception4_1 .nr2 a.on {
+    color: #009a44;
+}
+
+.qReception4_2 {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.qReception4_2 ul {
+    width: 1224px;
+}
+
+.qReception4_2 ul li {
+    width: 280px;
+    margin: 30px 26px 30px 0;
+}
+
+.qReception4_2 ul li .pic {
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.qReception4_2 ul li .pic img {
+    width: 280px;
+    height: 200px;
+}
+
+.qReception4_2 ul li .title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    width: 280px;
+    margin-top: 20px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.qReception4_2 ul li a:hover .title {
+    color: #009a44;
+}
+
+.qReception5 {
+    width: 1200px;
+}
+
+.qReception5_1 {
+    width: 1200px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.qReception5_1 .nr1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.qReception5_1 .nr2 {
+    font-size: 13px;
+    color: #999;
+    line-height: 14px;
+    margin-top: 32px;
+}
+
+.qReception5_1 .nr2 span.style1 {
+    margin: 0 16px;
+}
+
+.qReception5_2 {
+    font-size: 14px;
+    color: #666;
+    width: 1200px;
+    line-height: 24px;
+    padding: 44px 0 54px;
+}
+
+.qReception5_2 span.style1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.qReception5_3 {
+    width: 1200px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.qReception5_3_l{
+    font-size: 14px;
+    color: #666;
+    width: 600px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.qReception5_3_l p{
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.qReception5_3_l p a{
+    color: #666;
+}
+
+.qReception5_3_l p:hover{
+    color: #009a44;
+    text-decoration: underline;
+}
+
+.qReception5_3_l p:hover a{
+    color: #009a44;
+}
+
+.qReception5_3_r{
+    margin-top: 54px;
+}
+
+.qReception6 {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.qReception6 ul {
+    width: 1230px;
+    margin-top: -30px;
+}
+
+.qReception6 ul li {
+    width: 378px;
+    margin: 30px 30px 0 0;
+    border: 1px solid #d9d7d7;
+}
+
+.qReception6 ul li .pic {
+    width: 378px;
+    height: 346px;
+    overflow: hidden;
+}
+
+.qReception6 ul li .pic img {
+    width: 378px;
+    height: 346px;
+}
+
+.qReception6 ul li .title {
+    font-size: 24px;
+    color: #333;
+    width: 330px;
+    height: 88px;
+    line-height: 88px;
+    padding: 0 24px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.qReception6 ul li .title span.style1 {
+    font-size: 16px;
+    color: #666;
+    margin-left: 18px;
+}
+
+.qReception6 ul li a:hover .title {
+    color: #fff;
+    background-color: #009a44;
+}
+
+.qReception6 ul li a:hover .title span.style1 {
+    color: #fff;
+}
+
+.qDesigner{
+    width: 100%;
+    height: 327px;
+    text-align: center;
+    padding-top: 73px;
+}
+
+.qDesigner .pic{
+    width: 168px;
+    height: 168px;
+    border: 4px solid #fff;
+    border-radius: 168px;
+    overflow: hidden;
+}
+
+.qDesigner .pic img{
+    width: 168px;
+    height: 168px;
+}
+
+.qDesigner .name{
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    line-height: 100%;
+    margin: 28px 0 10px;
+}
+
+.qDesigner .position{
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    line-height: 100%;
+}
+
+.qReception7 {
+    width: 1200px;
+}
+
+.qReception7_1 {
+    width: 1199px;
+    margin-top: 45px;
+    background-color: #fafafa;
+    border: 1px solid #e1e1e1;
+    border-left: 0px;
+}
+
+.qReception7_1 a {
+    font-size: 14px;
+    color: #666;
+    width: 118px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #fafafa;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+
+.qReception7_1 a:hover , .qReception7_1 a.on {
+    color: #fff;
+    background-color: #009a44;
+    border-left: 1px solid #009a44;
+    border-right: 1px solid #009a44;
+}
+
+.qReception7_2 {
+    width: 1200px;
+}
+
+.qReception7_2 ul {
+    width: 1230px;
+}
+
+.qReception7_2 ul li {
+    width: 380px;
+    margin: 40px 30px 0 0;
+}
+
+.qReception7_2 ul li .pic {
+    width: 380px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.qReception7_2 ul li .pic img {
+    width: 380px;
+    height: 250px;
+}
+
+.qReception7_2 ul li .text {
+    width: 340px;
+    padding: 19px;
+    border: 1px solid #eee;
+    border-top: 0px;
+}
+
+.qReception7_2 ul li .text .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.qReception7_2 ul li .text .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff5900;
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.qReception7_2 ul li:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.qReception7_2 ul li:hover .text .title {
+    color: #009a44;
+}
+
+.qReception7_3 {
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.qReception7_3 a {
+    font-size: 16px;
+    color: #999;
+    width: 1198px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #fafafa;
+    border: 1px solid #e1e1e1;
+    display: block;
+}
+
+.qReception7_4 {
+    width: 1200px;
+}
+
+.qReception7_5 {
+    width: 1200px;
 }
