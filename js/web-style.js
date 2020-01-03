@@ -1,5 +1,9 @@
 $(function () {
-    console.log('aaaa')
+   $('.tabs-title a').click(function () {
+       var index = $(this).index();
+       $(this).addClass('current').siblings().removeClass('current')
+       $(this).parent('.tabs-title').siblings('.tabs-cont').children('div').eq(index).show().siblings().hide()
+   })
 
 /*---------------------------------  HQ  --------------------------------*/
 

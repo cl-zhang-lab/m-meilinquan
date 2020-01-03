@@ -45,11 +45,14 @@
   height: 38px;
   line-height: 36px;
   border: 1px solid #dddddd;
+  font-size: 13px;
+  color: #666;
 }
 .form-cont .form-inp.inp-01 {
   width: 240px;
-  font-size: 13px;
-  color: #666;
+}
+.form-cont .form-inp.inp-02 {
+  width: 80px;
 }
 .form-cont .form-sel {
   height: 38px;
@@ -86,7 +89,7 @@
 }
 .form-cont .form-update .up-img .a-close {
   position: absolute;
-  right: -10px;
+  right: -5px;
   top: -10px;
 }
 .form-cont .form-update .up-img .a-close img {
@@ -109,7 +112,7 @@
 }
 .form-cont .form-update-02 .up-img .a-close {
   position: absolute;
-  right: -10px;
+  right: -5px;
   top: -10px;
 }
 .form-cont .form-update-02 .up-img .a-close img {
@@ -159,7 +162,7 @@
 }
 .form-cont .form-note {
   border-top: 1px solid #eeeeee;
-  padding: 50px 0 50px 50px;
+  padding: 50px 0 50px 70px;
   position: relative;
 }
 .form-cont .form-note .box-title {
@@ -167,13 +170,60 @@
   font-weight: bold;
   color: #323232;
   position: absolute;
-  margin-left: -50px;
+  margin-left: -70px;
 }
 .form-cont .form-note .txt-s {
   width: 805px;
   height: 100px;
   background-color: #ffffff;
   border: solid 1px #d2d2d2;
+}
+.form-cont .form-title {
+  position: relative;
+}
+.form-cont .form-title:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  border-bottom: 2px solid #cccccc;
+}
+.form-cont .form-title .title-l {
+  position: relative;
+  z-index: 99;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  height: 62px;
+  line-height: 62px;
+  border-bottom: 2px solid #009a44;
+}
+.form-cont .form-tab-title {
+  border-bottom: 1px solid #f0f0f0;
+}
+.form-cont .form-tab-title a {
+  display: block;
+  float: left;
+  width: 86px;
+  height: 34px;
+  line-height: 34px;
+  background-color: #ffffff;
+  border: solid 1px #f0f0f0;
+  border-bottom: none;
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+}
+.form-cont .form-tab-title a.current {
+  border-color: #009a44;
+  color: #333333;
+}
+.form-cont .form-tab-cont > div {
+  display: none;
 }
 .member-mod-01 .m-menu {
   border-bottom: 1px solid #f0f0f0;
