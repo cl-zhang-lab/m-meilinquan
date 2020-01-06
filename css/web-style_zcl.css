@@ -208,7 +208,9 @@
 .form-cont .form-tab-title a {
   display: block;
   float: left;
-  width: 86px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   height: 34px;
   line-height: 34px;
   background-color: #ffffff;
@@ -224,6 +226,18 @@
 }
 .form-cont .form-tab-cont > div {
   display: none;
+}
+.form-cont .form-status {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.form-cont .form-title-02 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #009a44;
+  border-bottom: 1px solid #f0f0f0;
+  height: 58px;
+  line-height: 58px;
 }
 .member-mod-01 .m-menu {
   border-bottom: 1px solid #f0f0f0;
@@ -283,10 +297,85 @@
   color: #7f7f7f;
   margin-right: 14px;
 }
-.member-mod-02 .box-class a:hover,
-.member-mod-02 .box-class a.current {
+.member-mod-02 .box-class a.a-1:hover,
+.member-mod-02 .box-class a.a-1.current {
   border-color: #009a44;
   color: #009a44;
+}
+.member-mod-02 .box-class a.a-2:hover,
+.member-mod-02 .box-class a.a-2.current {
+  border-color: #009a44;
+  background-color: #13a152;
+  color: #fff;
+}
+.member-mod-02 .box-class a.a-3:hover,
+.member-mod-02 .box-class a.a-3.current {
+  border-color: #fe6600;
+  color: #fe6600;
+}
+.member-mod-02 .box-screen {
+  color: #666666;
+  height: 30px;
+  line-height: 30px;
+}
+.member-mod-02 .box-screen > div {
+  margin-right: 20px;
+  float: left;
+}
+.member-mod-02 .box-screen > div:last-child {
+  margin-right: 0;
+}
+.member-mod-02 .box-screen .box-search {
+  width: 243px;
+  height: 30px;
+  line-height: 30px;
+  border: solid 1px #e6e6e6;
+}
+.member-mod-02 .box-screen .box-search .inp-s {
+  height: 28px;
+  line-height: 28px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  width: 170px;
+}
+.member-mod-02 .box-screen .box-search .btn-s {
+  border: none;
+  background: url("../images/img-21.png") no-repeat center center #fff;
+  width: 30px;
+  height: 30px;
+}
+.member-mod-02 .box-screen .box-date > div {
+  float: left;
+  position: relative;
+}
+.member-mod-02 .box-screen .box-date .inp-s {
+  width: 100px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  background-color: #fff;
+  border: solid 1px #e6e6e6;
+}
+.member-mod-02 .box-screen .box-date .a-s {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+.member-mod-02 .box-screen .box-date .a-s img {
+  display: block;
+}
+.member-mod-02 .box-screen .box-btn .btn-s {
+  width: 90px;
+  height: 30px;
+  background-color: #009a44;
+  display: inline-block;
+  vertical-align: bottom;
+  border: none;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
 }
 .member-mod-02 .box-table table tr td {
   color: #999999;
@@ -296,6 +385,9 @@
   padding-top: 20px;
   padding-bottom: 20px;
   line-height: 30px;
+}
+.member-mod-02 .box-table table tr td .t-num {
+  color: #333333;
 }
 .member-mod-02 .box-table table tr td .t-title {
   color: #333333;
@@ -325,5 +417,86 @@
   padding-top: 0;
   padding-bottom: 0;
   background-color: #f5f5f5;
+}
+.member-mod-02 .box-operation {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 30px;
+  font-size: 13px;
+  color: #999999;
+}
+.member-mod-02 .box-operation a {
+  display: inline-block;
+  font-size: 13px;
+  color: #999999;
+}
+.member-mod-02 .box-operation input[type='checkbox'] {
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-right: 5px;
+}
+.member-mod-03 table tr td {
+  border-bottom: 1px solid #f0f0f0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 13px;
+  color: #999999;
+  line-height: 22px;
+}
+.member-mod-03 table tr td .td-01 span {
+  color: #666666;
+  margin-left: 10px;
+}
+.member-mod-03 table tr td .td-other {
+  text-align: right;
+}
+.member-mod-03 table tr td .td-other > div {
+  display: inline-block;
+}
+.member-mod-03 table tr td .td-other .col-01 {
+  color: #333333;
+}
+.member-mod-03 table tr td .td-other .col-02 {
+  color: #009a44;
+}
+.member-mod-03 table tr:last-child td {
+  border-bottom: none;
+}
+.member-mod-04 {
+  border-bottom: 2px solid #009a44;
+  padding-bottom: 20px;
+}
+.member-mod-04 table tr td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  color: #999999;
+  line-height: 22px;
+}
+.member-mod-04 table tr td .td-01 {
+  color: #666;
+}
+.member-mod-05 {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-top: 45px;
+}
+.member-mod-05 .box-s .box-l {
+  text-align: right;
+  width: 270px;
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+}
+.member-mod-05 .box-s .box-r {
+  width: 560px;
+}
+.member-mod-05 .box-s .text-01 {
+  width: 350px;
+  height: 130px;
+  border: solid 1px #dcdcdc;
+  padding: 6px;
+  line-height: 22px;
 }
 /*# sourceMappingURL=web-style_zcl.css.map */
