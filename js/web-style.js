@@ -46,6 +46,20 @@ $(function () {
         $('.tcbox2').fadeOut();
     });
 
+    // 弹窗3
+    $('.qtcbg3').height($(window).height());
+    $('.tcbox3').css('margin-top',($(window).height()-$('.tcbox3').height())/2);
+
+    $('.qtanchuang3').click(function(){
+        $('.qtcbg3').fadeIn();
+        $('.tcbox3').fadeIn();
+    });
+
+    $('.qtcbg3,.qgb3').click(function(){
+        $('.qtcbg3').fadeOut();
+        $('.tcbox3').fadeOut();
+    });
+
     // 家具定制 收货地址
     $('.qReception2 ul li span .yydz1').click(function(){
         $(this).siblings('.yydz2').stop().slideToggle();
@@ -55,6 +69,21 @@ $(function () {
         $('.shdz').val($(this).find('.yydz2_nr2').html());
         $('.qReception2 ul li span .yydz2').stop().slideUp();
     });
+
+    // 前台-选效果图
+    $('.qReception8_3 a').click(function(){
+        $(this).addClass('on').siblings().removeClass('on');
+    })
+
+    $('.qReception9_1_l2 ul li span .nr2 .nr2_nr').click(function(){
+        $(this).addClass('on').siblings().removeClass('on');
+        $(this).siblings('.zhi1').val($(this).html());
+    })
+
+    $('.qReception9_1_l2 ul li span .nr3 .nr3_nr').click(function(){
+        $(this).addClass('on').siblings().removeClass('on');
+        $(this).siblings('.zhi1').val($(this).html());
+    })
 
 })
 
