@@ -258,12 +258,12 @@
 .member-mod-01 .m-menu a.current {
   color: #009a44;
 }
-.member-mod-01 .box-s {
+.member-mod-01 .box-list .box-s {
   border-bottom: 1px solid #f5f5f5;
   line-height: 68px;
   font-size: 14px;
 }
-.member-mod-01 .box-s .box-a {
+.member-mod-01 .box-list .box-s .box-a {
   height: 68px;
   display: block;
   width: 700px;
@@ -272,8 +272,22 @@
   white-space: nowrap;
   color: #333333;
 }
-.member-mod-01 .box-s .box-date {
+.member-mod-01 .box-list .box-s .box-date {
   color: #919191;
+}
+.member-mod-01 .box-list-02 .box-s {
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.member-mod-01 .box-list-02 .box-s .box-title {
+  font-size: 13px;
+  color: #666666;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont {
+  padding-right: 150px;
 }
 .member-mod-02 .box-class {
   border-bottom: 1px solid #f0f0f0;
@@ -376,6 +390,27 @@
   text-align: center;
   font-size: 14px;
   color: #ffffff;
+}
+.member-mod-02 .box-price-title {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 15px;
+  line-height: 30px;
+}
+.member-mod-02 .box-price-title span {
+  color: #ff3c00;
+}
+.member-mod-02 .box-title {
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.member-mod-02 .box-title .title-l {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+.member-mod-02 .box-title .title-btn {
+  margin-right: 90px;
 }
 .member-mod-02 .box-table table tr td {
   color: #999999;
