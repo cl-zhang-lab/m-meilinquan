@@ -16,6 +16,10 @@ $(function () {
         $('.up-box').hide()
     })
 
+    $('.reply-form-btn').click(function () {
+        $(this).siblings('.reply-form').toggle()
+    })
+
     /*---------------------------------  HQ  --------------------------------*/
 
     // TAB切换

@@ -130,6 +130,17 @@
   color: #fff;
   display: inline-block;
 }
+.form-cont .form-btn-02 {
+  width: 150px;
+  height: 42px;
+  border: solid 1px #d2d2d2;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  display: inline-block;
+  background-color: #fff;
+}
 .form-cont .form-txt-01 {
   font-size: 14px;
   line-height: 24px;
@@ -279,15 +290,107 @@
   border-bottom: 1px solid #e7e7e7;
   padding-bottom: 30px;
   margin-bottom: 30px;
+  font-size: 14px;
 }
 .member-mod-01 .box-list-02 .box-s .box-title {
-  font-size: 13px;
-  color: #666666;
   line-height: 34px;
   margin-bottom: 10px;
 }
+.member-mod-01 .box-list-02 .box-s .box-title .title-l {
+  color: #666666;
+}
+.member-mod-01 .box-list-02 .box-s .box-title .title-l > div {
+  margin-right: 50px;
+  float: left;
+}
+.member-mod-01 .box-list-02 .box-s .box-title .title-r {
+  color: #c8c8c8;
+}
 .member-mod-01 .box-list-02 .box-s .box-cont {
   padding-right: 150px;
+  position: relative;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .a-reply {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #999999;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .a-reply:hover {
+  color: #009a44;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .box-txt {
+  color: #999999;
+  line-height: 24px;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .box-txt .r-name {
+  color: #333333;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .box-reply {
+  position: relative;
+  margin-top: 30px;
+  color: #999999;
+  line-height: 24px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 25px 30px;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .box-reply:after {
+  content: '';
+  background: url("../images/img-24.png") no-repeat;
+  width: 23px;
+  height: 15px;
+  position: absolute;
+  top: -15px;
+  left: 30px;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .box-reply .replay-title {
+  line-height: 34px;
+  margin-bottom: 5px;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .box-reply .replay-title .title-l {
+  color: #333;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .box-reply .replay-title .title-l > div {
+  margin-right: 50px;
+  float: left;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .box-reply .replay-title .title-r {
+  color: #009a44;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .box-reply .replay-cont {
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .box-reply .replay-cont:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .reply-form {
+  display: none;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .reply-form .inp-s {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  border: solid 1px #e5e5e5;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #666;
+}
+.member-mod-01 .box-list-02 .box-s .box-cont .reply-form .btn-s {
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: #009a44;
+  color: #fff;
+  text-align: center;
 }
 .member-mod-02 .box-class {
   border-bottom: 1px solid #f0f0f0;
@@ -331,6 +434,7 @@
   color: #666666;
   height: 30px;
   line-height: 30px;
+  font-size: 14px;
 }
 .member-mod-02 .box-screen > div {
   margin-right: 20px;
@@ -439,6 +543,9 @@
 .member-mod-02 .box-table table tr td .t-status.status-01 {
   color: #ff4e00;
 }
+.member-mod-02 .box-table table tr td .t-status.status-02 {
+  color: #df1c1c;
+}
 .member-mod-02 .box-table table tr td .t-more {
   color: #666666;
 }
@@ -459,6 +566,9 @@
   line-height: 30px;
   font-size: 13px;
   color: #999999;
+}
+.member-mod-02 .box-operation.operation-02 {
+  padding-left: 18px;
 }
 .member-mod-02 .box-operation a {
   display: inline-block;
@@ -523,6 +633,7 @@
   font-size: 14px;
   color: #333333;
   font-weight: bold;
+  line-height: 38px;
 }
 .member-mod-05 .box-s .box-r {
   width: 560px;
@@ -533,5 +644,28 @@
   border: solid 1px #dcdcdc;
   padding: 6px;
   line-height: 22px;
+}
+.member-mod-06 .left-s {
+  line-height: 36px;
+  text-align: right;
+  font-size: 14px;
+  color: #666666;
+  width: 130px;
+  padding-right: 20px;
+}
+.member-mod-06 .right-s {
+  width: 640px;
+}
+.member-mod-06 .star {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 11px;
+}
+.member-mod-06 .star-num {
+  display: inline-block;
+  line-height: 36px;
+  font-size: 14px;
+  color: #ff6c00;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=web-style_zcl.css.map */
