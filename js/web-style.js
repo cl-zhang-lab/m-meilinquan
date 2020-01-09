@@ -3,22 +3,59 @@ $(function () {
         var index = $(this).index();
         $(this).addClass('current').siblings().removeClass('current')
         $(this).parent('.tabs-title').siblings('.tabs-cont').children('div').eq(index).show().siblings().hide()
-    })
+    });
 
     /*弹窗*/
     $('.box-stat-btn').click(function () {
-        $('.up-box-mc').show()
+        $('.up-box-mc').show();
         $('.up-box-stat').show()
-    })
+    });
+
+    $('.box-pay-btn').click(function () {
+        $('.up-box-mc').show();
+        $('.up-box-pay').show()
+    });
+
 
     $('.box-close').click(function () {
         $('.up-box-mc').hide()
         $('.up-box').hide()
-    })
+    });
+
+
+    $('.up-add-btn').click(function () {
+        $('.up-box-mc').show()
+        $('.up-add-box').show()
+    });
+
+    $('.box-close').click(function () {
+        $('.up-box-mc').hide()
+        $('.up-add-box').hide()
+    });
 
     $('.reply-form-btn').click(function () {
         $(this).siblings('.reply-form').toggle()
-    })
+    });
+
+    $('.member-tab-list .list-title').click(function () {
+
+        if($(this).parent('.member-tab-list').hasClass('current')) {
+            $(this).parent('.member-tab-list').removeClass('current')
+        } else {
+            $(this).parent('.member-tab-list').addClass('current');
+            $(this).parent('.member-tab-list').siblings('.member-tab-list').removeClass('current')
+        }
+    });
+
+    $('.other-info-btn').click(function () {
+        if($(this).parent().siblings('.other-info-box').is(":hidden")) {
+            $(this).addClass('current');
+            $(this).parent().siblings('.other-info-box').show()
+        } else {
+            $(this).removeClass('current');
+            $(this).parent().siblings('.other-info-box').hide()
+        }
+    });
 
     /*---------------------------------  HQ  --------------------------------*/
 
