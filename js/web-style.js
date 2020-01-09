@@ -34,10 +34,8 @@ $(function () {
     });
 
     // 弹窗1
-    $('.qtcbg1').height($(window).height());
-    $('.tcbox1').css('margin-top', ($(window).height() - $('.tcbox1').height()) / 2);
-
     $('.qtanchuang1').click(function () {
+        $('.tcbox1').css('margin-top', ($(window).height() - $('.tcbox1').height()) / 2);
         $('.qtcbg1').fadeIn();
         $('.tcbox1').fadeIn();
     });
@@ -48,10 +46,8 @@ $(function () {
     });
 
     // 弹窗2
-    $('.qtcbg2').height($(window).height());
-    $('.tcbox2').css('margin-top', ($(window).height() - $('.tcbox2').height()) / 2);
-
     $('.qtanchuang2').click(function () {
+        $('.tcbox2').css('margin-top', ($(window).height() - $('.tcbox2').height()) / 2);
         $('.qtcbg2').fadeIn();
         $('.tcbox2').fadeIn();
     });
@@ -62,10 +58,8 @@ $(function () {
     });
 
     // 弹窗3
-    $('.qtcbg3').height($(window).height());
-    $('.tcbox3').css('margin-top',($(window).height()-$('.tcbox3').height())/2);
-
     $('.qtanchuang3').click(function(){
+        $('.tcbox3').css('margin-top',($(window).height()-$('.tcbox3').height())/2);
         $('.qtcbg3').fadeIn();
         $('.tcbox3').fadeIn();
     });
@@ -73,6 +67,30 @@ $(function () {
     $('.qtcbg3,.qgb3').click(function(){
         $('.qtcbg3').fadeOut();
         $('.tcbox3').fadeOut();
+    });
+
+    // 弹窗4
+    $('.qtanchuang4').click(function(){
+        $('.tcbox4').css('margin-top',($(window).height()-$('.tcbox4').height())/2);
+        $('.qtcbg4').fadeIn();
+        $('.tcbox4').fadeIn();
+    });
+
+    $('.qtcbg4,.qgb4').click(function(){
+        $('.qtcbg4').fadeOut();
+        $('.tcbox4').fadeOut();
+    });
+
+    // 弹窗5
+    $('.qtanchuang5').click(function(){
+        $('.tcbox5').css('margin-top',$(window).scrollTop()+30);
+        $('.qtcbg5').fadeIn();
+        $('.tcbox5').fadeIn();
+    });
+
+    $('.qtcbg5,.qgb5').click(function(){
+        $('.qtcbg5').fadeOut();
+        $('.tcbox5').fadeOut();
     });
 
     // 家具定制 收货地址
@@ -88,17 +106,25 @@ $(function () {
     // 前台-选效果图
     $('.qReception8_3 a').click(function(){
         $(this).addClass('on').siblings().removeClass('on');
-    })
+    });
 
     $('.qReception9_1_l2 ul li span .nr2 .nr2_nr').click(function(){
         $(this).addClass('on').siblings().removeClass('on');
         $(this).siblings('.zhi1').val($(this).html());
-    })
+    });
 
     $('.qReception9_1_l2 ul li span .nr3 .nr3_nr').click(function(){
         $(this).addClass('on').siblings().removeClass('on');
         $(this).siblings('.zhi1').val($(this).html());
-    })
+    });
+
+    // 前台-制作工艺详情 增加需求
+    var hq1 = 2;
+    $('.tcbox5_nr2 ul li span .nr1 .zjxq').click(function(){
+        hq1 = hq1+1;
+        var hq2 = '<div class="nr1_nr"><div class="nr1_nr1">需求' + hq1 + '</div><div class="nr1_nr2 fix"><input type="text" placeholder="您要定制的家具" class="wbk4 fl"><input type="text" placeholder="您要定制的数量" class="wbk4 fr"></div></div>';
+        $(this).parent('.nr1').append(hq2);
+    });
 
 })
 
