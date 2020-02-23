@@ -8,16 +8,1171 @@
     <title>美林泉</title>
 
     <link href="css/common.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/swiper.min.js" type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
     <script src="js/web-style.js" type="text/javascript"></script>
-
+    <script>
+        $(document).ready(function() {
+            new WOW().init();
+        })
+    </script>
 </head>
 <body>
 <header class="header">
-
+    <div class="container fix">
+        <div class="header-logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
+        <ul class="header-nav">
+            <li class="active"><a href="#">首页</a></li>
+            <li><a href="#">选效果图</a></li>
+            <li><a href="#">家具资讯</a></li>
+            <li><a href="#">制作工艺</a></li>
+            <li><a href="#">设计师</a></li>
+        </ul>
+        <div class="header-other fix">
+            <div class="other-tel">
+                400-888-8888
+            </div>
+            <div class="other-group fix">
+                <a href="#" class="a-s a-login">登录</a>
+                <a href="#" class="a-s a-reg">注册</a>
+            </div>
+            <a href="javascript:;" class="other-a">发布需求</a>
+        </div>
+    </div>
 </header>
-    <div class="demo_zcl mb30"></div>
-    <div class="demo_yhq mb30"></div>
+<!--header end-->
+<div class="swiper-container index-banner">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="#" class="box-img" style="background-image: url('images/img-48.png')"></a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#" class="box-img" style="background-image: url('images/img-48.png')"></a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#" class="box-img" style="background-image: url('images/img-48.png')"></a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#" class="box-img" style="background-image: url('images/img-48.png')"></a>
+        </div>
+    </div>
+    <div class="banner-other">
+        <div class="swiper-button-prev banner-prev"></div>
+        <div class="swiper-pagination banner-page"></div>
+        <div class="swiper-button-next banner-next"></div>
+    </div>
+
+</div>
+<script>
+    var bannerSwiper = new Swiper('.index-banner', {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        speed:600,
+        autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.banner-page',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.banner-next',
+            prevEl: '.banner-prev',
+        },
+    });
+</script>
+<!--index banner end-->
+<div class="index-product-group">
+    <div class="product-box product-01 wow fadeInUp" data-wow-duration="1.5s"  data-wow-delay=".3s">
+        <div class="container fix">
+            <div class="fix mb20">
+                <div class="product-class fl">
+                    <div class="box-icon"><img src="images/img-58.png" alt=""></div>
+                    <div class="box-title">定制卧室</div>
+                    <a href="#" class="box-more"><img src="images/img-55.png" alt=""></a>
+                </div>
+                <div class="product-swiper-warp fix fr">
+                    <div class="swiper-container product-swiper product-swiper-01 fl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-79.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-btn fr">
+                        <div class="swiper-button-next p-next-01"></div>
+                        <div class="swiper-button-prev p-prev-01"></div>
+                    </div>
+                    <script>
+                        var pSwiper1 = new Swiper('.product-swiper-01', {
+                            slidesPerView: 1,
+                            spaceBetween: 0,
+                            loop: true,
+                            navigation: {
+                                nextEl: '.p-next-01',
+                                prevEl: '.p-prev-01',
+                            },
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="fix">
+                <div class="box-s fl">
+                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <a href="#" class="title-r fr">66</a>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+                <div class="box-s fr">
+                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <a href="#" class="title-r fr">66</a>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-box product-02 wow fadeInUp" data-wow-duration="1.5s"  data-wow-delay=".3s">
+        <div class="container fix">
+            <div class="fix mb20">
+                <div class="product-class fl">
+                    <div class="box-icon"><img src="images/img-59.png" alt=""></div>
+                    <div class="box-title title-02">定制客餐厅</div>
+                    <a href="#" class="box-more"><img src="images/img-54.png" alt=""></a>
+                </div>
+                <div class="product-swiper-warp fix fr">
+                    <div class="swiper-container product-swiper product-swiper-02 fl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-79.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-btn fr">
+                        <div class="swiper-button-next p-next-02"></div>
+                        <div class="swiper-button-prev p-prev-02"></div>
+                    </div>
+                    <script>
+                        var pSwiper2 = new Swiper('.product-swiper-02', {
+                            slidesPerView: 1,
+                            spaceBetween: 0,
+                            loop: true,
+                            navigation: {
+                                nextEl: '.p-next-02',
+                                prevEl: '.p-prev-02',
+                            },
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="fix">
+                <div class="box-s fl">
+                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <a href="#" class="title-r fr">66</a>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+                <div class="box-s fr">
+                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <a href="#" class="title-r fr">66</a>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box-02 mt20">
+                <a href="#"><img src="images/img-82.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="product-box product-03 wow fadeInUp" data-wow-duration="1.5s"  data-wow-delay=".3s" >
+        <div class="container fix">
+            <div class="fix mb20">
+                <div class="product-class fl">
+                    <div class="box-icon"><img src="images/img-60.png" alt=""></div>
+                    <div class="box-title">定制书房</div>
+                    <a href="#" class="box-more"><img src="images/img-55.png" alt=""></a>
+                </div>
+                <div class="product-swiper-warp fix fr">
+                    <div class="swiper-container product-swiper product-swiper-03 fl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-79.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-btn fr">
+                        <div class="swiper-button-next p-next-03"></div>
+                        <div class="swiper-button-prev p-prev-03"></div>
+                    </div>
+                    <script>
+                        var pSwiper2 = new Swiper('.product-swiper-03', {
+                            slidesPerView: 1,
+                            spaceBetween: 0,
+                            loop: true,
+                            navigation: {
+                                nextEl: '.p-next-03',
+                                prevEl: '.p-prev-03',
+                            },
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="fix">
+                <div class="box-s fl">
+                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <a href="#" class="title-r fr">66</a>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+                <div class="box-s fr">
+                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <a href="#" class="title-r fr">66</a>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box-02 mt20">
+                <a href="#"><img src="images/img-82.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="product-box product-04 wow fadeInUp" data-wow-duration="1.5s"  data-wow-delay=".3s" >
+        <div class="container fix">
+            <div class="fix mb20">
+                <div class="product-class fl">
+                    <div class="box-icon"><img src="images/img-61.png" alt=""></div>
+                    <div class="box-title">定制书房</div>
+                    <a href="#" class="box-more"><img src="images/img-55.png" alt=""></a>
+                </div>
+                <div class="product-swiper-warp fix fr">
+                    <div class="swiper-container product-swiper product-swiper-04 fl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-79.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-btn fr">
+                        <div class="swiper-button-next p-next-04"></div>
+                        <div class="swiper-button-prev p-prev-04"></div>
+                    </div>
+                    <script>
+                        var pSwiper2 = new Swiper('.product-swiper-04', {
+                            slidesPerView: 1,
+                            spaceBetween: 0,
+                            loop: true,
+                            navigation: {
+                                nextEl: '.p-next-04',
+                                prevEl: '.p-prev-04',
+                            },
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="fix">
+                <div class="box-s fl">
+                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <a href="#" class="title-r fr">66</a>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+                <div class="box-s fr">
+                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <a href="#" class="title-r fr">66</a>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box-02 mt20">
+                <a href="#"><img src="images/img-82.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="product-box product-05 wow fadeInUp" data-wow-duration="1.5s"  data-wow-delay=".3s" >
+        <div class="container fix">
+            <div class="fix mb20">
+                <div class="product-class fl">
+                    <div class="box-icon"><img src="images/img-62.png" alt=""></div>
+                    <div class="box-title">定制书房</div>
+                    <a href="#" class="box-more"><img src="images/img-55.png" alt=""></a>
+                </div>
+                <div class="product-swiper-warp fix fr">
+                    <div class="swiper-container product-swiper product-swiper-05 fl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-79.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-btn fr">
+                        <div class="swiper-button-next p-next-05"></div>
+                        <div class="swiper-button-prev p-prev-05"></div>
+                    </div>
+                    <script>
+                        var pSwiper2 = new Swiper('.product-swiper-05', {
+                            slidesPerView: 1,
+                            spaceBetween: 0,
+                            loop: true,
+                            navigation: {
+                                nextEl: '.p-next-01',
+                                prevEl: '.p-prev-01',
+                            },
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="fix">
+                <div class="box-s fl">
+                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <a href="#" class="title-r fr">66</a>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+                <div class="box-s fr">
+                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <a href="#" class="title-r fr">66</a>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box-02 mt20">
+                <a href="#"><img src="images/img-82.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="product-box product-06 wow fadeInUp" data-wow-duration="1.5s"  data-wow-delay=".3s">
+        <div class="container fix">
+            <div class="fix mb20">
+                <div class="product-class fl">
+                    <div class="box-icon"><img src="images/img-63.png" alt=""></div>
+                    <div class="box-title title-02">制作方案</div>
+                    <a href="#" class="box-more"><img src="images/img-54.png" alt=""></a>
+                </div>
+                <div class="product-swiper-warp fix fr">
+                    <div class="swiper-container product-swiper product-swiper-06 fl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-79.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <div class="title-price fr">￥66556.566</div>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <a href="#" class="title-r fr">66</a>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                                    <div class="box-title fix">
+                                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                                        <div class="title-price fr">￥66556.566</div>
+                                    </div>
+                                    <div class="box-mc">
+                                        <div class="tag-s">
+                                            <span>卧室</span>
+                                            <span>简约</span>
+                                            <span>整体衣柜</span>
+                                            <span>20-30m²</span>
+                                        </div>
+                                        <a href="#" class="more-s more-02">查看更多+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-btn fr">
+                        <div class="swiper-button-next p-next-06"></div>
+                        <div class="swiper-button-prev p-prev-06"></div>
+                    </div>
+                    <script>
+                        var pSwiper2 = new Swiper('.product-swiper-06', {
+                            slidesPerView: 1,
+                            spaceBetween: 0,
+                            loop: true,
+                            navigation: {
+                                nextEl: '.p-next-06',
+                                prevEl: '.p-prev-06',
+                            },
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="fix">
+                <div class="box-s fl">
+                    <a href="#"><img src="images/img-80.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <div class="title-price fr">￥66556.566</div>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+                <div class="box-s fr">
+                    <a href="#"><img src="images/img-81.png" class="box-img" alt=""></a>
+                    <div class="box-title fix">
+                        <a href="#" class="title-l fl">简约客餐厅效果图 84㎡中式风格显露沉稳气息</a>
+                        <div class="title-price fr">￥66556.566</div>
+                    </div>
+                    <div class="box-mc">
+                        <div class="tag-s">
+                            <span>卧室</span>
+                            <span>简约</span>
+                            <span>整体衣柜</span>
+                            <span>20-30m²</span>
+                        </div>
+                        <a href="#" class="more-s more-02">查看更多+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box-02 mt20">
+                <a href="#"><img src="images/img-82.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="index-designer-group ovh mb20 wow fadeInUp" data-wow-duration="1.5s"  data-wow-delay=".3s">
+    <div class="container fix">
+        <div class="designer-title fl">
+            <span>设计师</span>
+        </div>
+        <div class="designer-group fr">
+            <div class="swiper-container designer-list">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box-s">
+                            <a href="#" class="box-img"><img src="images/img-85.png" alt=""></a>
+                            <div class="box-mc">
+                                <div class="box-title">俞莹波</div>
+                                <div class="box-job">软装设计师</div>
+                                <a href="#" class="box-more"><img src="images/img-86.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s">
+                            <a href="#" class="box-img"><img src="images/img-85.png" alt=""></a>
+                            <div class="box-mc">
+                                <div class="box-title">俞莹波</div>
+                                <div class="box-job">软装设计师</div>
+                                <a href="#" class="box-more"><img src="images/img-86.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s">
+                            <a href="#" class="box-img"><img src="images/img-85.png" alt=""></a>
+                            <div class="box-mc">
+                                <div class="box-title">俞莹波</div>
+                                <div class="box-job">软装设计师</div>
+                                <a href="#" class="box-more"><img src="images/img-86.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s">
+                            <a href="#" class="box-img"><img src="images/img-85.png" alt=""></a>
+                            <div class="box-mc">
+                                <div class="box-title">俞莹波</div>
+                                <div class="box-job">软装设计师</div>
+                                <a href="#" class="box-more"><img src="images/img-86.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s">
+                            <a href="#" class="box-img"><img src="images/img-85.png" alt=""></a>
+                            <div class="box-mc">
+                                <div class="box-title">俞莹波</div>
+                                <div class="box-job">软装设计师</div>
+                                <a href="#" class="box-more"><img src="images/img-86.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s">
+                            <a href="#" class="box-img"><img src="images/img-85.png" alt=""></a>
+                            <div class="box-mc">
+                                <div class="box-title">俞莹波</div>
+                                <div class="box-job">软装设计师</div>
+                                <a href="#" class="box-more"><img src="images/img-86.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s">
+                            <a href="#" class="box-img"><img src="images/img-85.png" alt=""></a>
+                            <div class="box-mc">
+                                <div class="box-title">俞莹波</div>
+                                <div class="box-job">软装设计师</div>
+                                <a href="#" class="box-more"><img src="images/img-86.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s">
+                            <a href="#" class="box-img"><img src="images/img-85.png" alt=""></a>
+                            <div class="box-mc">
+                                <div class="box-title">俞莹波</div>
+                                <div class="box-job">软装设计师</div>
+                                <a href="#" class="box-more"><img src="images/img-86.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var designerSwiper = new Swiper('.designer-list', {
+                    slidesPerView: 6,
+                    spaceBetween: 10,
+                    loop: true,
+                    speed: 500,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+<div class="index-other-group ovh wow fadeInUp" data-wow-duration="1.5s"  data-wow-delay=".3s">
+    <div class="container fix">
+        <div class="group-box-01 fl">
+            <div class="swiper-container add-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box-s"><a href="#"><img src="images/img-87.png  " alt=""></a></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s"><a href="#"><img src="images/img-87.png  " alt=""></a></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s"><a href="#"><img src="images/img-87.png  " alt=""></a></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s"><a href="#"><img src="images/img-87.png  " alt=""></a></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box-s"><a href="#"><img src="images/img-87.png  " alt=""></a></div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination add-page"></div>
+
+            </div>
+            <script>
+                var addSwiper = new Swiper('.add-swiper', {
+                    spaceBetween: 0,
+                    centeredSlides: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: '.add-page',
+                        clickable: true,
+                    },
+
+                });
+            </script>
+        </div>
+        <div class="group-box-02 fix fl ml10">
+            <div class="box-s fl">
+                <div class="box-top">
+                    <div class="box-img"><a href="#"><img src="images/img-88.png" alt=""></a></div>
+                    <a href="#" class="box-title">卧室墙纸多少钱，一算这样选才最省钱！</a>
+                </div>
+                <div class="box-list">
+                    <div class="list-s fix">
+                        <a href="#" class="fl">防腐处理的板材，视觉效果和杉木刷清漆差不多。 </a>
+                        <span class="fr">07.27</span>
+                    </div>
+                    <div class="list-s fix">
+                        <a href="#" class="fl">防腐处理的板材，视觉效果和杉木刷清漆差不多。 </a>
+                        <span class="fr">07.27</span>
+                    </div>
+                    <div class="list-s fix">
+                        <a href="#" class="fl">防腐处理的板材，视觉效果和杉木刷清漆差不多。 </a>
+                        <span class="fr">07.27</span>
+                    </div>
+                    <div class="list-s fix">
+                        <a href="#" class="fl">防腐处理的板材，视觉效果和杉木刷清漆差不多。 </a>
+                        <span class="fr">07.27</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box-s fr">
+                <div class="box-top">
+                    <div class="box-img"><a href="#"><img src="images/img-88.png" alt=""></a></div>
+                    <a href="#" class="box-title">卧室墙纸多少钱，一算这样选才最省钱！</a>
+                </div>
+                <div class="box-list">
+                    <div class="list-s fix">
+                        <a href="#" class="fl">防腐处理的板材，视觉效果和杉木刷清漆差不多。 </a>
+                        <span class="fr">07.27</span>
+                    </div>
+                    <div class="list-s fix">
+                        <a href="#" class="fl">防腐处理的板材，视觉效果和杉木刷清漆差不多。 </a>
+                        <span class="fr">07.27</span>
+                    </div>
+                    <div class="list-s fix">
+                        <a href="#" class="fl">防腐处理的板材，视觉效果和杉木刷清漆差不多。 </a>
+                        <span class="fr">07.27</span>
+                    </div>
+                    <div class="list-s fix">
+                        <a href="#" class="fl">防腐处理的板材，视觉效果和杉木刷清漆差不多。 </a>
+                        <span class="fr">07.27</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="group-box-03 fr">
+            <div class="box-title">
+                <span>新闻资讯</span>
+            </div>
+            <div class="box-list">
+                <a href="#">业主晒家</a>
+                <a href="#">家居资讯</a>
+                <a href="#">家装难题</a>
+                <a href="#">行业动态</a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="footer-info">
+        <div class="container fix">
+            <div class="info-logo fl">
+                <a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="info-group fl">
+                <div class="link-s">
+                    <a href="#">选效果图</a><span>|</span><a href="#">业主晒家</a><span>|</span><a
+                        href="#">家居资讯</a><span>|</span><a href="#">在线报价</a>
+                </div>
+                <div class="fix">
+                    <div class="box-s fl">
+                        <span class="icon-s"><img src="images/img-02.png" alt=""></span>
+                        <span class="txt-s">电话：010-51604321</span>
+                    </div>
+                    <div class="box-s fl ml30">
+                        <span class="icon-s"><img src="images/img-03.png" alt=""></span>
+                        <span class="txt-s">邮箱：MEILINGQUAN.COM</span>
+                    </div>
+                </div>
+                <div class="box-s">
+                    <span class="icon-s"><img src="images/img-04.png" alt=""></span>
+                    <span class="txt-s">地址：北京市丰台区 角门西 时代风帆大厦2-2702</span>
+                </div>
+            </div>
+            <div class="info-erwm fr">
+                <div class="erwm-img">
+                    <img src="images/img-05.png" alt="">
+                </div>
+                <div class="erwm-title">
+                    <div>扫码关注</div>
+                    <div>家具最新资讯</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copy">
+        <div class="container">
+            版权所有：北京美林泉 <a href="#">技术支持：金方时代</a>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+
+<div class="float-box">
+    <div class="box-s toTop">
+        <span class="icon-s"><img src="images/img-89.png" alt=""></span>
+    </div>
+    <div class="box-s">
+        <span class="txt-s">
+            全部<br>分类
+        </span>
+        <div class="all-menu show-box">
+            <div class="menu-title fix">
+                <a href="#">定制卧室</a>
+                <a href="#">定制客餐厅</a>
+                <a href="#">定制书房</a>
+                <a href="#">定制儿童房</a>
+                <a href="#">定制厨房</a>
+            </div>
+            <div class="menu-cont">
+                <div class="fix" style="display: block">
+                    <ul class="cont-list fix fl">
+                        <li>
+                            <a href="#">整体衣柜</a>
+                            <a href="#">衣帽间</a>
+                            <a href="#">飘窗利用</a>
+                            <a href="#">定制床</a>
+                        </li>
+                        <li>
+                            <a href="#">整体衣柜</a>
+                            <a href="#">衣帽间</a>
+                            <a href="#">飘窗利用</a>
+                            <a href="#">定制床</a>
+                        </li>
+                    </ul>
+                    <div class="cont-img fr">
+                        <a href="#"><img src="images/img-94.png" alt=""></a>
+                    </div>
+                </div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+            </div>
+        </div>
+    </div>
+    <div class="box-s up-consulting-btn">
+        <span class="icon-s"><img src="images/img-90.png" alt=""></span>
+    </div>
+    <div class="box-s">
+        <span class="icon-s"><img src="images/img-91.png" alt=""></span>
+    </div>
+    <div class="box-s">
+        <span class="icon-s"><img src="images/img-92.png" alt=""></span>
+        <div class="box-tel show-box">
+            <div class="tel-s">13888888888</div>
+        </div>
+    </div>
+    <div class="box-s">
+        <span class="icon-s"><img src="images/img-93.png" alt=""></span>
+        <div class="box-erwm show-box">
+            <div class="erwm-s">
+                <img src="images/qpic12.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="box-s">
+        <span class="txt-s-02">搜索</span>
+    </div>
+</div>
+<div class="up-box-mc"></div>
+<div class="up-consulting-window">
+    <a href="javascript:;" class="box-close"><img src="images/qpic7.png" alt=""></a>
+    <div class="box-title">欢迎咨询</div>
+    <div class="box-inp inp-01">
+        <input type="text" name="" class="inp-s" placeholder="请输入您的称呼">
+    </div>
+    <div class="box-inp inp-02">
+        <input type="text" name="" class="inp-s" placeholder="请输入您的手机号码">
+    </div>
+    <div class="box-inp inp-03">
+        <select class="inp-s">
+            <option value="1">咨询分类</option>
+            <option value="2">咨询分类1</option>
+        </select>
+
+    </div>
+    <div class="box-inp inp-04">
+        <textarea class="txt-s" placeholder="请输入您想要咨询的，我们会在第一时间回复。"></textarea>
+    </div>
+    <button type="button" name="" class="btn-s">提交</button>
+</div>
 </body>
 </html>

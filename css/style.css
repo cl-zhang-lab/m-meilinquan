@@ -531,6 +531,7 @@ img {
 }
 .up-add-box .box-cont .l-s span {
   color: #f00;
+  margin-right: 3px;
 }
 .up-add-box .box-cont .inp-s {
   border: 1px solid #e6e6e6;
@@ -538,6 +539,14 @@ img {
   line-height: 34px;
   padding: 0 15px;
   width: 250px;
+  font-size: 14px;
+}
+.up-add-box .box-cont .sel-s {
+  border: 1px solid #e6e6e6;
+  height: 34px;
+  line-height: 34px;
+  padding: 0 15px;
+  width: 283px;
   font-size: 14px;
 }
 .up-add-box .box-cont .btn-s {
@@ -551,5 +560,9 @@ img {
   color: #fff;
   display: block;
   margin: 30px auto 0;
+}
+/*box-show-hide*/
+.form-box-cont {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

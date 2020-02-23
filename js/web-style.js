@@ -37,6 +37,7 @@ $(function () {
         $(this).siblings('.reply-form').toggle()
     });
 
+
     $('.member-tab-list .list-title').click(function () {
 
         if($(this).parent('.member-tab-list').hasClass('current')) {
@@ -55,6 +56,39 @@ $(function () {
             $(this).removeClass('current');
             $(this).parent().siblings('.other-info-box').hide()
         }
+    });
+
+    /**/
+    $('.form-box-btn').click(function () {
+        if($('.form-box-cont').is(":hidden")) {
+            $('.form-box-cont').show()
+        } else {
+            $('.form-box-cont').hide()
+        }
+    })
+
+    $('.toTop').click(function(){
+        $("html,body").animate({scrollTop:0},"fast");
+    });
+
+    $('.all-menu .menu-title a').hover(function () {
+        var index = $(this).index();
+        $(this).addClass('current').siblings().removeClass('current')
+        $(this).parent('.menu-title').siblings('.menu-cont').children('div').eq(index).show().siblings().hide()
+    });
+
+    $('.float-box .box-s').hover(function () {
+        $(this).children('.show-box').toggle()
+    })
+
+    $('.up-consulting-btn').click(function () {
+        $('.up-box-mc').show()
+        $('.up-consulting-window').show()
+    });
+
+    $('.box-close').click(function () {
+        $('.up-box-mc').hide()
+        $('.up-consulting-window').hide()
     });
 
     /*---------------------------------  HQ  --------------------------------*/
